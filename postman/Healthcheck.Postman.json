@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "9af0b6f1-b047-4bb1-af7b-267d619d27c6",
+		"name": "healthcheck",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15235376"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host-api}}/user/healthcheck",
+					"host": [
+						"{{host-api}}"
+					],
+					"path": [
+						"user",
+						"healthcheck"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
