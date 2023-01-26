@@ -76,7 +76,7 @@ Note: The authentication method is using JWT, not OAuth. So the way to logout is
 
 ### How To Access The API
 
-You can use Postman and than import every json file in the _./postman/_ folder and start testing.
+**You can use Postman and than import every json file in the _./postman/_ folder and start testing.**
 
 If not, you can use these curl command:
 
